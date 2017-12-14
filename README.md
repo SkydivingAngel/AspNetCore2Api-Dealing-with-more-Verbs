@@ -1,8 +1,8 @@
 # How to Deal with Differents Verbs in the same Method
 <br>**Just a simple trick...**<br>
 
-        [Route("TestBoth")]
-        public JsonResult TestBoth()
+        [Route("UseBoth")]
+        public JsonResult UseBoth()
         {
             switch (HttpContext.Request.Method.ToUpperInvariant())
             {
